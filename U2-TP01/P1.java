@@ -48,6 +48,8 @@ public class P1 {
 
     public static void main(String[] args) {
         
+
+        // porque el programa me agrega el try para cerrar el scanner?
         try (Scanner sc = new Scanner(System.in)) {
 
             System.out.println("Precio base:");
