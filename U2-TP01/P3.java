@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class P3 {
   public static void main(String args[]) {
     
-    try (Scanner sc = new Scanner(System.in)) {
+    Scanner sc = new Scanner(System.in);
         System.out.println("to end the process please insert 0 as the final product");
         int i = 1;
         double sum = 0; 
@@ -22,8 +22,7 @@ public class P3 {
             }
         }
         System.out.println("Sum: $"+sum);
+        sc.close();
     }
-
     
   }
-}
