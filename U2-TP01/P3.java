@@ -1,3 +1,12 @@
+/*
+
+  3. Suma total de una compra
+  Crear un algoritmo que solicite el precio de varios productos comprados (por ejemplo, tres productos) 
+  y calcule el total a pagar sumando todos los valores. No se incluyen descuentos ni impuestos.
+
+*/
+
+
 import java.util.Scanner;
 
 public class P3 {
